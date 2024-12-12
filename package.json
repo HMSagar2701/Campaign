@@ -4,9 +4,11 @@
   "description": "This is a etherum based smart contract for campagin, Please checkout",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "dev": "node server.js"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "test": "mocha"
+},
   "author": "Sagar",
   "license": "ISC",
   "dependencies": {
