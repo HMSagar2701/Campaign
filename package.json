@@ -4,11 +4,11 @@
   "description": "This is a etherum based smart contract for campagin, Please checkout",
   "main": "index.js",
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "test": "mocha"
-},
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "mocha"
+  },
   "author": "Sagar",
   "license": "ISC",
   "dependencies": {
@@ -18,12 +18,12 @@
     "ganache-cli": "^6.12.2",
     "mocha": "^10.7.3",
     "next": "^12.3.4",
-    "next-routes": "^1.4.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.5",
     "solc": "^0.4.17",
     "web3": "^4.13.0"
-  }
+}
+
 }
